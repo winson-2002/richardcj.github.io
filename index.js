@@ -1,5 +1,5 @@
 let typed = new Typed(".changing-text", {
-  strings: ["CONTENT WRITER", "ANCHORER"],
+  strings: ["CONTENT WRITER", "ANCHOR"],
   typeSpeed: 50,
   backSpeed: 50,
   loop: true,
@@ -12,7 +12,7 @@ let typed = new Typed(".changing-text", {
           "<h3 class='part-2'>I'm a <span class='changing-text'></span></h3>";
         typed.destroy();
         typed = new Typed(".changing-text", {
-          strings: ["CONTENT WRITER", "ANCHORER"],
+          strings: ["CONTENT WRITER", "ANCHOR"],
           typeSpeed: 50,
           backSpeed: 50,
           loop: true,
